@@ -1,6 +1,6 @@
 # Copywise evals
 
-Each folder here is one test case in the layout that `claude plugin eval` reads. The cases turn the briefs in [practice cases](../docs/practice-cases.md) into prompts with checkable statements, and add Russian grammar checks for address, gender, substitutions, and plurals.
+Each folder here is one test case in the layout that `claude plugin eval` reads. The cases turn the briefs in [practice cases](../docs/practice-cases.md) into prompts with checkable statements, and add grammar checks for Russian, Ukrainian, German, French, and Polish: address, gender, substitutions, plurals, and typography.
 
 | File | Purpose |
 | --- | --- |
@@ -43,3 +43,8 @@ Start a clean session with Copywise installed. Paste the prompt from `prompt.md`
 | `ru-transfer-substitutions` | A bank’s transfer strings keep the recipient’s name in the nominative, guess no gender, and do not inflect a weekday after «до» |
 | `ru-android-plurals` | An Android `plurals` resource gets one, few, many, and other with matching noun and verb forms |
 | `ru-paywall-no-dark-patterns` | A trial paywall declines a fake countdown and a shaming decline button, and shows price and renewal by the main action |
+| `uk-locale-audit-russisms` | A real `uk.json` audit: the vocative trap in a greeting, gender, Russian calques, «проєкт», and four plural forms |
+| `uk-cooking-collection-states` | «ти» throughout, no guess about the reader's gender, no Russian words in Ukrainian copy |
+| `de-checkout-sie` | Sie throughout, «24,90 €» on the paying button, a timeout that keeps the uncertainty |
+| `fr-typography-vous` | vous throughout, non-breaking spaces before high punctuation, a welcome without the point médian |
+| `pl-gender-impersonal` | Impersonal -no/-to forms instead of gendered past tense, four plural branches |

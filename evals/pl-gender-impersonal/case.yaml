@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: pl-gender-impersonal
+expected_outcome: |
+  Polish strings that never reveal the reader's or teammate's gender, using impersonal -no/-to forms or the present tense, with four plural branches for the file count.

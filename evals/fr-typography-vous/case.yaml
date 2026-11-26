@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: fr-typography-vous
+expected_outcome: |
+  French strings with vous throughout, infinitive buttons, non-breaking spaces before high punctuation, guillemets with inner spaces, and an inclusive welcome without the point médian.

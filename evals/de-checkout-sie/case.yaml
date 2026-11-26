@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: de-checkout-sie
+expected_outcome: |
+  German checkout strings that keep Sie throughout, name the charge on the final button with a correctly formatted euro amount, keep the uncertainty after a timeout, and give the book count one and other branches.
