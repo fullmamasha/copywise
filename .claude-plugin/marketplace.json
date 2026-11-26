@@ -1,0 +1,12 @@
+{
+  "name": "copywise",
+  "owner": { "name": "fullmamasha", "url": "https://github.com/fullmamasha" },
+  "description": "Copywise, a UX writing skill for product interfaces.",
+  "plugins": [
+    {
+      "name": "copywise",
+      "source": "./",
+      "description": "UX writing and microcopy for product interfaces in English, Russian, Ukrainian, and other European languages."
+    }
+  ]
+}

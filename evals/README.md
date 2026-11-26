@@ -13,7 +13,7 @@ The folder sits outside `skills/copywise` so that installing the skill does not 
 
 ## Run them with Claude Code
 
-Claude Code 2.1.269 or later can run every case with and without the skill and report the difference. From the repository root, once it carries the plugin manifest:
+Claude Code 2.1.269 or later can run every case with and without the skill and report the difference. From the repository root, which carries the plugin manifest:
 
 ```sh
 claude plugin eval . --scaffold --allow-tools Write,Edit --runs 1
