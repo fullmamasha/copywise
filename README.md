@@ -32,15 +32,15 @@ Agents write interface text the way they write everything else: “Get started�
 
 ## See the difference
 
-| Situation | Typical agent draft | With Copywise |
+| What agents usually write | What Copywise writes | Because |
 | --- | --- | --- |
-| The button opens the recipe gallery | Get started | Browse dinners |
-| A payment request timed out and the charge is unknown | Something went wrong. Please try again. | We couldn’t confirm your payment. **Check payment status** |
-| Russian app on «ты», the reader’s gender is unknown | Ты сохранил рецепт! | Рецепт в избранном |
-| Ukrainian greeting with a `{name}` variable | Вітаємо, {name}! *(renders “Вітаємо, Олександр!”, the wrong case)* | Вітаємо! Ви увійшли як {name} |
-| German shop on Sie, the button places a paid order | Weiter | Zahlungspflichtig bestellen |
-| Polish file app, the reader’s gender is unknown | Przesłałeś pliki | Przesłano pliki |
-| Ukrainian plural copied from English rules | `one {# файл} other {# файлів}` *(renders “2 файлів”)* | `one`, `few`, `many`, and `other`, each with the right form |
+| 🚀 Unlock the full potential of your workflow | Assign tasks and see what’s overdue | The screen is a task board with owners and due dates |
+| Success! Your changes have been saved successfully! 🎉 | Changes saved | Saving is routine, so the result is enough |
+| Oops! Something went wrong. Please try again later. | We couldn’t load your orders. **Reload** | The list request failed and reloading is safe |
+| Are you sure you want to proceed? **Yes** / **No** | Delete “Spring catalog”? Its public link will stop working. **Keep catalog** / **Delete catalog** | Deleting breaks a shared link and cannot be undone |
+| Fast. Simple. Secure. | Turn tracked hours into an invoice | The app builds invoices from time entries |
+| Откройте для себя мир вкусных возможностей! | Выберите ужины, и мы соберём список покупок | The app builds the list from the chosen recipes |
+| Ваш запит був успішно відправлений! | Заявку надіслано | The Ukrainian «-но» form is shorter and drops a Russian calque |
 
 ## Install
 
