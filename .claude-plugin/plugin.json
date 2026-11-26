@@ -1,0 +1,9 @@
+{
+  "name": "copywise",
+  "description": "UX writing and microcopy for product interfaces in English, Russian, Ukrainian, and other European languages.",
+  "author": { "name": "fullmamasha", "url": "https://github.com/fullmamasha" },
+  "homepage": "https://github.com/fullmamasha/copywise",
+  "repository": "https://github.com/fullmamasha/copywise",
+  "license": "MIT",
+  "keywords": ["ux-writing", "microcopy", "localization", "copywriting", "i18n"]
+}
