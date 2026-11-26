@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: ru-locale-audit-gender-plurals
+expected_outcome: |
+  A table of edits and a corrected locales/ru.json. All keys and variables survive. Plurals gain few and many. No string guesses the gender of the reader or of authorName. Address is «ты» everywhere. Title case, канцелярит, the dot separator and the empty error are fixed. The pay button names the charge with the amount.
+context:
+  scaffold_script: place-files.sh

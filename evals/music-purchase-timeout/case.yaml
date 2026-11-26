@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: music-purchase-timeout
+expected_outcome: |
+  Two distinct button labels: the first names reviewing the order, the second names the payment and shows $18. The timeout state says the payment could not be confirmed, offers a status check, contains no joke, and does not invite another payment or claim that the payment failed.

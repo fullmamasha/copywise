@@ -1,0 +1,11 @@
+{
+  "auth.signup.success": "Вы успешно зарегистрированы!",
+  "recipes.saved.toast": "Ты сохранил рецепт в избранное",
+  "recipes.count": "{count, plural, one {# рецепт} other {# рецепта}}",
+  "nav.orders": "Мои Заказы",
+  "checkout.pay": "Осуществить оплату · {amount}",
+  "checkout.error": "Произошла ошибка. Пожалуйста, попробуйте позже.",
+  "profile.welcome": "Привет, {name}! Ты готов начать?",
+  "comments.new": "{authorName} оставил комментарий к рецепту {recipeTitle}",
+  "upload.progress": "Производится загрузка данных..."
+}

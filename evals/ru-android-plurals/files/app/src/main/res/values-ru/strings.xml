@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="unread_messages">
+        <item quantity="one">%d непрочитанное сообщение</item>
+        <item quantity="other">%d непрочитанных сообщения</item>
+    </plurals>
+    <string name="files_selected">Выбрано файлов: %d</string>
+</resources>

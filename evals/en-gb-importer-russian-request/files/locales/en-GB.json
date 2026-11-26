@@ -1,0 +1,4 @@
+{
+  "import.success": "{count, plural, one {# contact was imported successfully!} other {# contacts were imported successfully!}}",
+  "import.success.cta": "Click here"
+}

@@ -1,6 +1,6 @@
 # Practice cases
 
-Run a brief in a clean conversation with the skill available. For an automatic discovery test, omit its name from the brief and inspect the tool’s activity if it exposes skill use. For a writing test, explicitly request Copywise. Judge the words against the behavior and brief. Many phrasings can pass.
+Run a brief in a clean conversation with the skill available. For an automatic discovery test, omit its name from the brief and inspect the tool’s activity if it exposes skill use. For a writing test, explicitly request Copywise. Judge the words against the behavior and brief. Many phrasings can pass. The same briefs, with checkable statements, live in [evals](../evals/README.md), together with harder cases for Russian substitutions, Android plurals, button tracing, and paywalls.
 
 | Brief | What to check |
 | --- | --- |
@@ -22,6 +22,14 @@ A bakery uses «вы». A customer builds a box of two pastries, pays, and later
 | Location-based search works with approximate location and also supports manual district selection. | Keep both routes. Distinguish the location needed for the task from what the device grants. |
 | A parcel dashboard counts returns and parcels awaiting collection. The export contains only returns. | Keep the counts and the export scope distinct even if the component has a generic failure name. |
 | The product team has verified a recording is deleted 24 hours after upload. The transcript stays until its owner deletes it. | Disclose both facts before upload and attach each retention rule to the correct object. |
+
+## Russian grammar checks
+
+| Brief | What to check |
+| --- | --- |
+| A cooking app on «ты» shows a toast after the first saved recipe. The reader’s gender is unknown. | No string says «сохранил», «сохранила», or «готов» about the reader. The line is built around the recipe. |
+| A Russian locale file has plurals with only one and other, «Мои Заказы», «Осуществить оплату · {amount}», and `{authorName} оставил комментарий`. | Plurals gain few and many. Keys and variables survive. No string guesses anyone’s gender. The address stays «ты». |
+| A task tracker on «вы» sends pushes with `{actorName}`, whose gender is unknown, and user-entered task titles. | No past-tense verb agrees with the name. The name stays in the nominative case. Each title gets a generic noun or quotes. |
 
 ## A quick review with the team
 

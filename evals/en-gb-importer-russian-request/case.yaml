@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: en-gb-importer-russian-request
+expected_outcome: |
+  locales/en-GB.json still has the same two keys, stays in British English, keeps an ICU plural over count with at least one and other branches, and the CTA names the destination instead of "Click here".
+context:
+  scaffold_script: place-files.sh

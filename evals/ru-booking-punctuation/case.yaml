@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: ru-booking-punctuation
+expected_outcome: |
+  The heading loses the dot separator and reads naturally, the duration keeps the 45–60 range, and the button names the charge with 900 ₽ without a decorative dash.

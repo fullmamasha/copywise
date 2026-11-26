@@ -18,6 +18,9 @@ Choose the row for the state that the implementation actually renders. Examples 
 | Success and undo | Confirm the result that matters. Offer undo only for its actual availability window. | “Moved to archive” / “Undo” |
 | Destructive dialog | Name the object, affected people or data, and reversibility if known. Make both choices unambiguous. | “Delete the Spring catalog?” / “Its public link will stop working.” / “Keep catalog” / “Delete catalog” |
 | Notifications | Lead with the event. Limit lock-screen detail to the product’s privacy setting. Link to the affected object when available. | “New comment on your draft” / “View comment” |
+| SMS and email subjects | Put the object and event in the first words, which survive truncation. Fit the channel limit. A Cyrillic SMS segment holds 70 characters, not 160, and longer messages split into parts of 67. For a code, name its purpose and warn against sharing it. | “Your Bakery login code is 4821. Don’t share it with anyone.” |
+| Consent checkboxes | Give each checkbox one consent. Keep optional consents, such as marketing, separate and unchecked. Link each document by its actual title. Required consents and legal wording come from the legal owner. | “Send me offers by email” on its own unchecked box, apart from accepting the terms |
+| Cancellation and downgrade | Say what changes and when. Make leaving as clear as staying, and name both choices by their result. | “Your plan stays active until 12 June. After that, projects become read-only.” / “Keep subscription” / “Cancel subscription” |
 | Toggles | Name what the on state enables. If switching changes the audience, explain who gains access. | “Public link” / “Anyone with the link can view this board.” |
 | Tooltips and icon actions | Give the control an accessible name. Use a tooltip for unfamiliar meaning. Keep essential conditions in the main UI. | Icon action “Download invoice”, row-specific accessible name “Download invoice 1042” |
 

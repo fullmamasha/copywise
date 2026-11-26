@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: ru-editor-button-trace
+expected_outcome: |
+  The agent reads the handlers, sees that the primary button publishes the post and emails subscribers and that the secondary button permanently deletes the draft, relabels both by their real effect, replaces the empty toast with the result, and flags that deletion needs a confirmation.
+context:
+  scaffold_script: place-files.sh

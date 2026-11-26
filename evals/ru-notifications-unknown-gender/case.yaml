@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: ru-notifications-unknown-gender
+expected_outcome: |
+  Three push templates in Russian with «вы». None pairs {actorName} with a gendered past-tense verb, none needs {actorName} in an oblique case, user-entered titles get a generic noun or quotes, and each title leads with the event.
