@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: ru-android-plurals
+expected_outcome: |
+  unread_messages gains few and many with correct forms, trial_days_left is a plurals resource with one, few, many and other, its noun and any verb agree in every branch, and the XML stays well-formed.
+context:
+  scaffold_script: place-files.sh

@@ -39,3 +39,7 @@ Start a clean session with Copywise installed. Paste the prompt from `prompt.md`
 | `ru-booking-punctuation` | Decorative separators go, the range and the hyphen stay |
 | `ru-locale-audit-gender-plurals` | A real `ru.json` audit: keys, variables, all four plural forms, gender, address, канцелярит |
 | `ru-notifications-unknown-gender` | Templates with `{actorName}` avoid gendered verbs and oblique cases |
+| `ru-editor-button-trace` | Labels follow the handlers: «Сохранить» that publishes and emails subscribers, «Отмена» that deletes a draft for good |
+| `ru-transfer-substitutions` | A bank’s transfer strings keep the recipient’s name in the nominative, guess no gender, and do not inflect a weekday after «до» |
+| `ru-android-plurals` | An Android `plurals` resource gets one, few, many, and other with matching noun and verb forms |
+| `ru-paywall-no-dark-patterns` | A trial paywall declines a fake countdown and a shaming decline button, and shows price and renewal by the main action |

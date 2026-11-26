@@ -1,0 +1,8 @@
+{
+  "transfer.confirm.title": "Отправить {recipientName} {amount}?",
+  "transfer.confirm.cta": "Перевести",
+  "transfer.success": "{recipientName} получил ваш перевод",
+  "transfer.scheduled": "Перевод будет выполнен до {weekday}",
+  "transfer.history.item": "Перевод для {recipientName}",
+  "transfer.limit": "Сумма больше лимита {limit}. Уменьшите сумму или разделите перевод."
+}

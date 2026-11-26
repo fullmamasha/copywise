@@ -1,6 +1,6 @@
 # Practice cases
 
-Run a brief in a clean conversation with the skill available. For an automatic discovery test, omit its name from the brief and inspect the tool’s activity if it exposes skill use. For a writing test, explicitly request Copywise. Judge the words against the behavior and brief. Many phrasings can pass. The same briefs, with checkable statements, live in [evals](../evals/README.md).
+Run a brief in a clean conversation with the skill available. For an automatic discovery test, omit its name from the brief and inspect the tool’s activity if it exposes skill use. For a writing test, explicitly request Copywise. Judge the words against the behavior and brief. Many phrasings can pass. The same briefs, with checkable statements, live in [evals](../evals/README.md), together with harder cases for Russian substitutions, Android plurals, button tracing, and paywalls.
 
 | Brief | What to check |
 | --- | --- |

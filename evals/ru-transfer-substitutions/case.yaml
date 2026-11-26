@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: ru-transfer-substitutions
+expected_outcome: |
+  Every template keeps {recipientName} in a nominative position, no string guesses the recipient's gender, the success string does not claim the money arrived, the weekday is not inflected by a preposition, and the response asks for a date variable if needed.
+context:
+  scaffold_script: place-files.sh
