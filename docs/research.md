@@ -25,6 +25,21 @@ The Russian-language casebook draws on public interfaces, product pages, and fir
 | Додо Пицца | The menu distinguishes a pizza made of two halves from one assembled by choosing ingredients. [Product menu](https://dodopizza.ru/moscow/khabarovskaia/product/halfs) |
 | Дринкит | The pickup instructions tell guests how to recognize the right cell by name and order number. [Ordering and pickup](https://guest.drinkit.ru/ru) |
 
+## Language defaults
+
+The Ukrainian and European language references take their defaults for address, command form, punctuation, and number formats from Microsoft's per-language localization style guides, and their plural categories from CLDR. Product voice and an existing glossary override these defaults.
+
+| Topic | Source |
+| --- | --- |
+| Address, commands, punctuation, and numbers per language | [Microsoft localization style guides](https://learn.microsoft.com/en-us/globalization/reference/microsoft-style-guides) |
+| Plural categories for every locale | [CLDR language plural rules](https://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html) |
+| German gender-inclusive characters outside the official orthography | [Rat für deutsche Rechtschreibung, December 2023](https://www.rechtschreibrat.com/DOX/rfdr_PM_2023-12-15_Geschlechtergerechte_Schreibung.pdf) |
+| French spacing before punctuation in Quebec | [Office québécois de la langue française](https://vitrinelinguistique.oqlf.gouv.qc.ca/22039/la-typographie/espacement/espacement-avant-et-apres-les-signes-de-ponctuation-et-les-symboles) |
+| Point médian in French school texts | [Ministère de l'Éducation nationale, May 2021](https://www.education.gouv.fr/bo/21/Hebdo18/MENB2114203C.htm) |
+| Spanish gender markers | [RAE note, February 2024](https://www.rae.es/sites/default/files/2024-02/Nota%20de%20la%20RAE%2013%20de%20febrero%20de%202024.pdf) |
+
+The Ukrainian list of Russian calques combines the Microsoft Ukrainian guide with established usage. The lists of phrases that make copy sound generated are editorial judgment.
+
 ## Articles and guidance
 
 | Question | Finding and practical application |

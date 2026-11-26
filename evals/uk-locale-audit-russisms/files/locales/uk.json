@@ -1,0 +1,12 @@
+{
+  "home.greeting": "Вітаємо, {name}!",
+  "comments.new": "{name} залишив коментар до вашого допису",
+  "login.error": "Невірний пароль. Спробуйте ще раз",
+  "settings.notifications.toggle": "Виключити сповіщення",
+  "settings.reset": "Відновити налаштування по замовчуванню",
+  "checkout.pay": "Здійснити оплату",
+  "checkout.success": "Ваша оплата була успішно проведена",
+  "refund.hint": "Гроші повернуться на протязі 5 робочих днів",
+  "projects.count": "{count, plural, one {# проект} other {# проектів}}",
+  "invite.cta": "Прийняти участь у проекті"
+}

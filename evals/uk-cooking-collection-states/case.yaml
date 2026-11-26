@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: uk-cooking-collection-states
+expected_outcome: |
+  Ukrainian strings for three states. Address stays «ти», no string assumes the reader's gender, the empty state leads to the catalog, the toast names the saved recipe, the filtered state mentions filters and offers a reset, and no Russian calques appear.

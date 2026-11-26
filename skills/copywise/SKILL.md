@@ -1,6 +1,6 @@
 ---
 name: copywise
-description: UX writing and microcopy for product interfaces, with deep support for Russian («тексты интерфейса», «UX-редактура», «микрокопирайтинг»). Use whenever you write, implement, or review text a person sees in a product, even when the request only says to build a feature. Covers buttons, headings, forms, validation and error messages, empty states, onboarding, notifications and SMS, checkout, pricing, paywalls, landing pages, locale files, and translations. Traces what each control actually does and matches the product's voice, terms, layout, and locale, including ты and вы, gender-neutral phrasing, plural forms, and Russian typography. Not for long-form articles, blog posts, or technical documentation.
+description: UX writing and microcopy for product interfaces in English, Russian, Ukrainian, and other European languages («тексты интерфейса», «UX-редактура», «тексти інтерфейсу»). Use whenever you write, implement, review, or localize text a person sees in a product, even when the request only says to build a feature. Covers buttons, headings, forms, validation and error messages, empty states, onboarding, notifications and SMS, checkout, pricing, paywalls, landing pages, and locale files. Traces what each control actually does and matches the product's voice, terms, layout, and locale, including the form of address (ты/вы, ти/ви, du/Sie, tu/vous), gender-neutral phrasing, plural forms, and each language's typography. Not for long-form articles, blog posts, or technical documentation.
 ---
 
 # Copywise
@@ -10,7 +10,7 @@ Help a person recognize where they are, make a decision, and tell what happened.
 ## Start from the product
 
 1. Read the brief and relevant UI. Follow the action through its handler, route, or documented flow. For a greenfield design, use the capabilities in the brief. Identify who is here, what brought them here, what they can do, and what the system knows at this moment.
-2. Find the product’s terms and locale in nearby screens, its string catalog, and its editorial guide. Keep established object names and approved wording. A request written in Russian can describe an English-language interface. Follow the requested UI language, then the existing locale, then the brief’s language.
+2. Find the product’s terms and locale in nearby screens, its string catalog, and its editorial guide. Keep established object names and approved wording. A request written in Russian can describe an English-language interface. Follow the requested UI language, then the existing locale, then the brief’s language. Write each string natively in that language instead of translating an English or Russian draft line by line, and open the reference for that language below.
 3. Use an explicit voice preference first, then the product’s established voice, then the category defaults in [Voice and product categories](references/voice.md). For a new product, choose a voice once for the flow. Reduce playfulness when money, access, privacy, loss, or recovery is involved. In Russian, the voice also settles the form of address, so keep the product’s «ты» or «вы» in every state.
 4. Decide which pieces of text earn a place. An icon may need an accessible name. A familiar, labeled control may need no explanation at all. Preserve well-written strings in an audit and untouched surfaces during implementation.
 
@@ -34,6 +34,8 @@ Help a person recognize where they are, make a decision, and tell what happened.
 | Turn a feature into a landing page, offer, or purchase decision | [Conversion writing](references/conversion.md) |
 | Fit text to real layouts, check accessibility, or adapt text across languages and locale files | [Reading, typography, and localization](references/reading.md) |
 | Write, edit, or review any Russian interface text | [Russian interface writing](references/russian-product-writing.md). Apply its rules on address, gender, substitutions, plurals, and typography to every Russian string. Use its casebook to see how products handle a similar decision, then write a fresh line in the target product’s voice. |
+| Write, edit, or review any Ukrainian interface text | [Ukrainian interface writing](references/ukrainian-product-writing.md). Apply its rules on address, the vocative, gender, substitutions, plurals, Russian calques, and spelling to every Ukrainian string. |
+| Write, edit, or review German, French, Spanish, Italian, Portuguese, Polish, Czech, Dutch, or Swedish interface text | [European languages](references/european-languages.md). Use its defaults for address, button form, plural categories, and typography unless the product already decided otherwise. |
 
 ## Review and deliver
 

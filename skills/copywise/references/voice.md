@@ -26,7 +26,7 @@ In Russian, choosing a voice also means choosing «ты» or «вы». Follow th
 | Business | вы | 3 места добавлены в список на выходные | Открыть список |
 | Financial and formal | вы | Список на выходные обновлён | Открыть список |
 
-Each line is built around the list rather than the reader. «Ты сохранил три места» would assume the reader’s gender, which the interface usually does not know. The rules for this and other Russian grammar live in [Russian interface writing](russian-product-writing.md).
+Each line is built around the list rather than the reader. «Ты сохранил три места» would assume the reader’s gender, which the interface usually does not know. The rules for this and other Russian grammar live in [Russian interface writing](russian-product-writing.md). Ukrainian chooses between «ти» and «ви» the same way, and German, French, Spanish, and other European languages have their own defaults for address. See [Ukrainian interface writing](ukrainian-product-writing.md) and [European languages](european-languages.md).
 
 ## How the voices sound in their own setting
 

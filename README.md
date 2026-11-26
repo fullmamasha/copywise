@@ -46,7 +46,7 @@ Copywise uses the product’s existing language and terms. Its four voice profil
 
 ## Inside
 
-For Russian interfaces, the [Russian product writing guide](skills/copywise/references/russian-product-writing.md) pairs excerpts from travel, finance, and food products with original examples you can adapt to another screen.
+Copywise writes natively in each interface language instead of translating an English draft. The [Russian](skills/copywise/references/russian-product-writing.md) and [Ukrainian](skills/copywise/references/ukrainian-product-writing.md) guides cover address, gender, substitutions, plurals, and typography. The Ukrainian guide also lists common Russian calques. The [European languages](skills/copywise/references/european-languages.md) reference sets defaults for German, French, Spanish, Italian, Portuguese, Polish, Czech, Dutch, and Swedish.
 
 The [skill](skills/copywise/SKILL.md) holds the workflow and links to the relevant writing patterns. The [research notes](docs/research.md) connect the editorial decisions to published guidance and product examples. The [practice cases](docs/practice-cases.md) provide short briefs and observable checks for evaluating changes.
 
