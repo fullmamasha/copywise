@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: ru-bakery-pickup-notification
+expected_outcome: |
+  A menu card that says the shopper assembles a box of two pastries, a selection prompt for the first pastry, and a push that states the order is ready and gives order number 18 and the till as the pickup point, all with «вы».

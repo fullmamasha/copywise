@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: recording-retention-disclosure
+expected_outcome: |
+  The upload screen discloses both retention facts before upload and attaches the 24-hour deletion to the recording and the indefinite retention to the transcript.

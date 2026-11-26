@@ -15,6 +15,19 @@ One fact across all four examples: a user saved a set of three places for a week
 
 The same action label can serve every voice. Personality often belongs in a title or a moment of recognition. In a dense table, a familiar noun usually does more for the reader.
 
+## Address in Russian
+
+In Russian, choosing a voice also means choosing «ты» or «вы». Follow the product’s established form. When there is none, playful and modern profiles usually take «ты», while business, financial, health, and public-service products take «вы». Keep one form across the whole product, including errors, payment, and legal screens. Buttons in the infinitive, such as «Открыть список», work with either form.
+
+| Profile | Address | Saved state | Action |
+| --- | --- | --- | --- |
+| Playful | ты | Три места в списке. Намечаются хорошие выходные | Открыть список |
+| Modern and youthful | ты | Подборка на выходные сохранена | Открыть список |
+| Business | вы | 3 места добавлены в список на выходные | Открыть список |
+| Financial and formal | вы | Список на выходные обновлён | Открыть список |
+
+Each line is built around the list rather than the reader. «Ты сохранил три места» would assume the reader’s gender, which the interface usually does not know. The rules for this and other Russian grammar live in [Russian interface writing](russian-product-writing.md).
+
 ## How the voices sound in their own setting
 
 - **Playful, cooking.** After someone chooses their final dinner, “That’s dinner sorted” can sit above a summary of the week. The action “View grocery list” stays literal if it opens that list.
